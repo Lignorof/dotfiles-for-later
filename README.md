@@ -21,6 +21,15 @@ Configure once, cry once?
 /home/$USER/DIRECTORY/dotfiles-for-later/ \
 /home/$USER/``
 
-## Future problems and fixes
+# Things to do in a fresh installation:
+
+* Install VIM-PLUG 
+    (insert command-line here)
+
+* Install TMUX-PLUG
+    (insert list of commands here) 
+
+# Future problems and fixes
 
 Code 23: Create directory listed in ``apps.txt`` or find out yourself. 
+
