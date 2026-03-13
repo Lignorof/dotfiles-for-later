@@ -1,0 +1,6 @@
+.git/
+.gitignore
+*.AppImage
+*.appimage
+*.log
+node_modules/

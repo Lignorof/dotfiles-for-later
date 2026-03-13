@@ -1,0 +1,19 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura.desktop;
+text/plain=librewolf.desktop;
+image/vnd.djvu+multipage=org.pwmt.zathura.desktop;
+
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+text/plain=nvim.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/http=librewolf.desktop
+inode/directory=pcmanfm.desktop
+image/vnd.djvu+multipage=org.pwmt.zathura.desktop
+image/jpeg=nsxiv.desktop
+image/png=nsxiv.desktop
+image/gif=nsxiv.desktop
+image/webp=nsxiv.desktop
+image/bmp=nsxiv.desktop
+image/tiff=nsxiv.desktop
+image/x-tga=nsxiv.desktop

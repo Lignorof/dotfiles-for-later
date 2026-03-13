@@ -1,0 +1,32 @@
+# SoonTM 
+
+
+# Home
+.bashrc
+.xinitrc
+
+# .config
+.config/awesome/
+.config/calcurse/
+#.config/fontconfig/fonts.conf
+#.config/gtk-3.0/settings.ini
+.config/kitty/
+.config/mimeapps.list
+.config/mpd/
+.config/mpv/
+.config/ncmpcpp/
+.config/nsxiv/
+.config/nvim/
+.config/openbox/
+.config/pcmanfm/
+.config/polybar/
+.config/qtile/
+.config/rofi/
+.config/scc/profiles/
+.config/tmux/
+#.config/vim/
+.config/zathura/
+
+# .local
+.local/bin/
+.local/share/dwm/autostart.sh

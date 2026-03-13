@@ -1,0 +1,3 @@
+#!/bin/bash
+
+maim -q -d 0.2 ~/Pictures/$(date +%F-%T).png

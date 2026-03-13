@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# TODO: Fazer uma stack para fazer um shuffle na lista
+
+# TODO: A stack será verificar qual é o primeiro da fila e trocar a ordem 
+
+# Hard coded keyboard layouts for now. 
+portugues="setxkbmap br"
+ingles="setxkbmap us -variant altgr-intl"
+russo="setxkbmap ru"
+grego="setxkbmap gr"
+hebraico="setxkbmap il"
+
+# Test: Printf ${first} \\n ${segundo}
+aa="Inglês"
+bb="Português"
+cc=""
+dd=""
+ee=""
+
+# Futuro: Fazer um output com uma penca de variáveis. 
+case "$(printf "${aa}\\n${bb}\\nRusso\\nGrego\\nHebraico" | dmenu -l 5 -i -p "Choose Layout")" in
+	"Português") ${portugues} ;;
+	"Inglês") ${ingles} ;;
+	"Russo") ${russo} ;;
+	"Grego") ${grego} ;;
+	"Hebraico") ${hebraico} ;;
+esac
+
+# Futuro distante: exportar para C

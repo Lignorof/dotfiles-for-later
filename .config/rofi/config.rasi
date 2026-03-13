@@ -1,0 +1,11 @@
+/* Configuration */ 
+
+configuration {
+	display-drun: "Applications";
+	drun-display-format: "{icon} {name}";
+	show-icons: true;
+	icon-theme: "Yaru-prussiangreen-dark";
+
+}
+
+@theme "/home/matheus/.config/rofi/arc-dark.rasi"
